@@ -24,7 +24,6 @@ tl.to(".cover", 1, {
     opacity: 1,
     x: 50,
     onComplete : function(){
-    /*    ;/navOpen.getElementsByClassName.pointerEvents = 'auto';*/
         navOpen.style.pointerEvents = "auto";
         console.log("done");
     }
@@ -33,23 +32,6 @@ tl.to(".cover", 1, {
 const tl2 = new TimelineLite({paused : true});
 
 const video1 = document.getElementById("video1");
-
-/*tl.to()*/
-
-/*tl.to("#video1", 1, {
-   /*x: 0,
-   width: "100%",
-   height: "100%"*/
-  /*.*  position: "fixed",
-    right: 0,
-    bottom: 0,
-    minwidth: "100%",
-    minheight: "100%"
-});
-
-document.getElementById("video1").addEventListener('click', () =>/*)*//*{
- /*   tl2.play()
-});/*()*/  /**/
 
 navButton.addEventListener('click', (e) => {
     /*tl.play()*/
@@ -74,26 +56,6 @@ document.getElementById("fishhtml").addEventListener('click', (e) => {
    e.preventDefault();
    let target = e.target;
    slide(target);
-
-   /*
-   e.preventDefault();
-   let target = e.target.href;
-
-   const tl2 = new TimelineLite({paused : true});
-
-   document.getElementById("transition").style.zIndex = 10;
-
-   tl.fromTo(".transition", 0.5, {
-       x: 0,
-       width: "0%"
-   }, {
-       width: "100%"
-   })
-
-    setTimeout(() => {
-
-        window.location.href = target;
-    }, 1500);*/
 })
 
 document.getElementById("creekhtml").addEventListener('click', (e) => {
@@ -115,8 +77,6 @@ function slide(target){
     })
 
     setTimeout(() => {
-
-        // window.location.href = target;
     window.location.href = target.href;
     }, 1500);
 }
