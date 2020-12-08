@@ -30,19 +30,6 @@
     /*background-color: skyblue;*/
     background-image: linear-gradient(to bottom right, blue, skyblue); /*l/inear-gradient(to bottom right, lightblue skyblue);*/
   }
-  
-  /*.bag {
-    min-height: 35vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .bag img {
-    width: 20rem;
-    z-index: 2;
-    transition: all 0.75s ease-out;
-  }&/*/
-
   .sneaker {
     min-height: 35vh;
     display: flex;
@@ -54,32 +41,7 @@
     z-index: 2;
     transition: all 0.75s ease-out;
   }
-  /*.circle {
-    width: 15rem;
-    height: 15rem;
-    background: linear-gradient(
-      to right,
-      rgba(245, 70, 66, 0.75),
-      rgba(8, 83, 156, 0.75)
-    );
-    position: absolute;
-    border-radius: 50%;
-    z-index: 1;
-  }*
-  /*.circle {
-    width: 9.5rem;
-    height: 9.5rem;
-    background: linear-gradient(
-      to right,
-      rgba(245, 70, 66, 0.75),
-      rgba(8, 83, 156, 0.75)
-    );
-  /*  //..#position: absolute;*/
- /*   position: absolute;
-    margin-left: 20%;
-    border: 50%;
-    z-index: 1;
-  }*/
+ 
   
   .info h1 {
     font-size: 3rem;
